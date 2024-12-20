@@ -193,3 +193,94 @@
 //     <p>Estimated amount per day: ${estimatedAmount}</p>
 //     <p>You will need ${totalAmount} ${favSnack} to last you until the ripe old age of ${maxAge}</p>
 // `);
+
+
+// ASSIGNMENT 6-9
+// QUESTION 1
+// let a = 10; // Initializing the variable
+// document.write(
+//     `<h1>Result:</h1>
+//     <p>The value of a is: 10</p>
+//     <p>........................................</p>`
+// );
+// document.write("<p>The value of ++a is: " + (++a) + "</p>");
+// document.write("<p>Now the value of a is: " + a + "</p>");
+// document.write("<br>");
+
+// document.write("<p>The value of a++ is: " + (a++) + "</p>");
+// document.write("<p>Now the value of a is: " + a + "</p>");
+// document.write("<br>");
+
+// document.write("<p>The value of --a is: " + (--a) + "</p>");
+// document.write("<p>Now the value of a is: " + a + "</p>");
+// document.write("<br>");
+
+// document.write("<p>The value of a-- is: " + (a--) + "</p>");
+// document.write("<p>Now the value of a is: " + a + "</p>");
+
+
+// QUESTION 2
+// let a = 2, b = 1;
+// let result = --a - --b + ++b + b--;
+// document.write(`
+//     <h1>Result:</h1>
+//     <p>The value of a is: ${a}</p>
+//     <p>The value of b is: ${b}</p>
+//     <p>The value of result is: ${result}</p>
+// `);
+
+// QUESTION 3
+// const userName = prompt("Enter your name");
+// alert(`Hello ${userName}`);
+
+
+// QUESTION 4
+// let num = prompt("Enter a number");
+// if (num === "" || num === null) {
+//     num = 5;
+// }
+// for (let i = 1; i <= 10; i++) {
+//     document.write(`${num} X ${i} = ${num * i} <br>`);
+// }
+
+
+// QUESTION 5
+// const sub1 = prompt("Enter the first subject name");
+// const sub2 = prompt("Enter the second subject name");
+// const sub3 = prompt("Enter the third subject name");
+// const totalMarks = 300;
+// const obtMarksInFirstSub = +prompt(`Enter the marks obtained in first subject`);
+// const obtMarksInSecondSub = +prompt(`Enter the marks obtained in second subject`);
+// const obtMarksInThirdSub = +prompt(`Enter the marks obtained in third subject`);
+// const totalObtainedMarks = obtMarksInFirstSub + obtMarksInSecondSub + obtMarksInThirdSub;
+// const percentage = totalObtainedMarks / totalMarks * 100;
+// document.write(`
+//     <h1>Marks Sheet</h1>
+// <table border="1" style="border-collapse: collapse;"> 
+//     <tr>
+//         <th>Subject</th>
+//         <th>Marks</th>
+//     </tr>
+//     <tr>
+//         <td>${sub1}</td>
+//         <td>${obtMarksInFirstSub}</td>
+//     </tr>
+//     <tr>
+//         <td>${sub2}</td>
+//         <td>${obtMarksInSecondSub}</td>
+//     </tr>
+//     <tr>
+//         <td>${sub3}</td>
+//         <td>${obtMarksInThirdSub}</td>
+//     </tr>
+//     <tr>
+//         <td>Total</td>
+//         <td>${totalObtainedMarks}</td>
+//     </tr>
+//     <tr>
+//         <td>Percentage</td>
+//         <td>${percentage}</td>
+//     </tr>
+// </table>
+
+// `);
