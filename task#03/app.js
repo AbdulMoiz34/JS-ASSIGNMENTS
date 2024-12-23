@@ -127,3 +127,101 @@
 // } else {
 //     document.write("Invalid operator");
 // }
+
+
+
+//               ASSIGNMENT 12-13
+// QUESTION 1
+// let input = prompt("Enter a character:");
+// if (input.length !== 1) {
+//     alert("Please Enter only 1 character");
+// } else {
+//     let ascii = input.charCodeAt(0);
+//     if (ascii >= 48 && ascii <= 57) {
+//         alert("The input is a number");
+//     } else if (ascii >= 65 && ascii <= 90) {
+//         alert("The input is an uppercase letter ");
+//     } else if (ascii >= 97 && ascii <= 122) {
+//         alert("The input is a lowercase letter");
+//     }
+// }
+
+// QUESTION 2
+// let num1 = +prompt("Enter first number");
+// let num2 = +prompt("Enter second number");
+
+// if (num1 > num2) {
+//     alert(`${num1} is greater than ${num2}`);
+// } else if (num2 > num1) {
+//     alert(`${num2} is greater than ${num1}`);
+// } else if (num1 === num2) {
+//     alert(`Both Numbers are equal`);
+// } else {
+//     alert("Please Enter a correct number.");
+// }
+
+// QUESTION 3
+// let userNum = +prompt("Enter a number.");
+// if (userNum > 0) {
+//     alert("The number is positive");
+// } else if (userNum < 0) {
+//     alert("The number is negative")
+// } else if (userNum === 0) {
+//     alert("The number is zero.");
+// } else {
+//     alert("Number will be acceptable");
+// }
+
+// QUESTION 4
+// let userStr = prompt("Enter a letter");
+// userStr = userStr && userStr.toLowerCase();
+// console.log(userStr);
+
+// if (userStr.length !== 1) {
+//     alert("Enter only 1 letter.");
+// } else {
+//     if (userStr === "a" || userStr === "e" || userStr === "i" || userStr === "o" || userStr === "u") {
+//         alert("Your Letter is from vowel.");
+//     } else {
+//         alert(false);
+//     }
+// }
+
+
+// QUESTION 5
+// let myPass = "abdulmoiz123";
+// let userPass = prompt("Enter a password");
+// if (!userPass) {
+//     alert("Please Enter a password");
+// } else if (myPass === userPass.trim()) {
+//     alert("Correct! The password you entered matches the original password. ");
+// } else {
+//     alert("Incorrect password");
+// }
+
+// QUESTION 6
+// var greeting;
+// var hour = 19;
+// if (hour < 18) {
+//     greeting = "Good day";
+// } else {
+//     greeting = "Good evening";
+// }
+// console.log(greeting);
+
+// QUESTION 7
+let time = parseInt(prompt("Enter the time in 24-hour format (e.g., 1900 for 7 PM):"), 10);
+
+if (time >= 0 && time < 1200) {
+    alert("Good Morning!");
+} else if (time >= 1200 && time < 1700) {
+    alert("Good Afternoon!");
+} else if (time >= 1700 && time < 2100) {
+    alert("Good Evening!");
+} else if (time >= 2100 && time <= 2359) {
+    alert("Good Night!");
+} else {
+    alert("Invalid time entered. Please enter a valid 24-hour format time."); // Handle invalid input
+}
+
+
