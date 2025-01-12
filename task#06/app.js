@@ -1,10 +1,32 @@
 // CHAPTER 21 - 25
-// const firstName = prompt("Enter first name.");
-// const lastName = prompt("Enter last name");
-// const fullName = firstName + " " + lastName; // first way
-// const fullName = firstName.concat(" ", lastName);
-// console.log(`Hello! ${fullName}`);
 
+// QUESTION 01
+// const firstName = prompt("Enter first name.");
+// const lastName = prompt("Enter last name.");
+// const fullName = `${firstName} ${lastName}`;
+// alert(`Hello, ${fullName}!`);
+
+
+// QUESTION 02
+// const favoriteMobile = prompt("Enter you favorite mobile model");
+// document.write(`My Favorite phone is: ${favoriteMobile} <br />`);
+// document.write(`Length of string: ${favoriteMobile.length}`);
+
+
+// QUESTION 03
+// const countryName = "Pakistani";
+// let char = "n";
+// const idx = countryName.indexOf(char);
+// console.log(`String: ${countryName}`);
+// console.log(`Index of "${char}": ${idx}`)
+
+
+// QUESTION 04
+// const word = "Hello world";
+// const char = "l";
+// const lastIdx = word.lastIndexOf(char);
+// document.write(`String: ${word} <br />`);
+// document.write(`Last index of "${char}": ${lastIdx}`);
 
 
 // QUESTION 5
@@ -12,9 +34,19 @@
 // console.log(countryName.at(3)); // first way
 // console.log(countryName.slice(3, 3 + 1)); // second way
 
+
+// QUESTION 6
+// const firstName = prompt("Enter first name.");
+// const lastName = prompt("Enter last Name");
+// const fullName = firstName.concat(" ", lastName);
+// console.log(fullName);
+
+
 // QUESTION 7
 // const city = "Hyderabad";
-// console.log(city.replace("Hyder" , "Islam"));
+// const replacedWord = city.replace("Hyder", "Islam");
+// document.write(`City: ${city} <br />`);
+// document.write(`After replacement: ${replacedWord}`);
 
 // QUESTION 8
 // var message = `Ali and Sami are best friends.They play cricket and football together.`;
@@ -93,28 +125,28 @@
 
 
 // QUESTION 15
-// const password = prompt("Enter password");
+// const password = prompt("Enter your password.");
+// const firstChar = password.at(0);
 // let hasAlphabets = false;
 // let hasNumbers = false;
-
 // if (password.charCodeAt(0) >= 48 && password.charCodeAt(0) <= 57) {
-//     alert("Password can not begin with numbers");
+//     console.log("Password can't begin with numbers.");
 // } else {
 //     for (let i = 0; i < password.length; i++) {
 //         let charCode = password.charCodeAt(i);
 //         if ((charCode >= 65 && charCode <= 90) || (charCode >= 97 && charCode <= 122)) {
 //             hasAlphabets = true;
-//         } else if (charCode >= 48 && charCode <= 57) {
+//         } else {
 //             hasNumbers = true;
 //         }
 //     }
-
-//     if (password.length >= 6 && hasNumbers && hasAlphabets) {
-//         alert("Password valid!");
+//     if (password.length > 6 && hasAlphabets && hasNumbers) {
+//         console.log("Password is valid.");
 //     } else {
-//         alert("Password is not valid!");
+//         console.log("Password is not valid.");
 //     }
 // }
+
 
 // QUESTION 16
 // const university = "University of karachi";
