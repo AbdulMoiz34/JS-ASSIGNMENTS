@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- QUESTION 01 -->
+    <main>
+        <form onsubmit="formSubmit()">
+            <div>
+                <h1>Signup Form</h1>
+            </div>
+            <div class="input-fields">
+                <input required type="text" name="name" placeholder="Enter Your Name." id="name" />
+                <input required type="number" name="age" placeholder="Enter Your Age." id="age" />
+                <input required type="date" name="dob" placeholder="date of birth." id="dob" />
+                <input required type="email" name="email" placeholder="Enter Email" id="email" />
+                <input required type="password" name="password" placeholder="Enter password." id="pass">
+            </div>
+            <div class="form-btn">
+                <button>SignUp</button>
+            </div>
+        </form>
+        <div class="user-info">
+            <h2>Your Information:</h2>
+            <div class="info">
+                <div>
+                    <!-- <p>Name: <strong>Abdul Moiz</strong></p>
+                    <p>Age: <strong>20</strong></p>
+                    <p>email: <strong>moiz05366@gmail.com</strong></p> -->
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>
