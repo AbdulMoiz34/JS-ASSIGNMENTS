@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- QUESTION 2 -->
+    <!-- CARD -->
+
+    <!-- <div class="card-box">
+        <div class="card">
+            <div class="img">
+                <img src="./img/car-img.jpg" alt="car">
+            </div>
+            <div class="content">
+                <h3>Card Heading</h3>
+                <p class="para" id="para" onclick="expandPara()"></p>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- QUESTION 03 -->
+    <form onsubmit="formSubmitHandler()">
+        <div>
+            <label for="name">Enter Name:</label>
+            <input required type="text" name="name" placeholder="Enter a name." id="name">
+            <label for="age">Enter AGE:</label>
+            <input required type="number" name="age" id="age" placeholder="Enter age.">
+        </div>
+        <br>
+        <div>
+            <label for="email">Enter Email:</label><input required type="email" name="email" placeholder="Enter email."
+                id="email">
+            <label for="course">select course:</label>
+            <select required name="" id="course">
+                <option disabled selected>Enter course</option>
+                <option value="web and app development">Web And App Development</option>
+                <option value="Graphic designing">Graphic Designing</option>
+                <option value="digital marketing">Digital Marketing</option>
+                <option value="artificial intelligence">Aritificial Intelligence</option>
+            </select>
+        </div>
+        <button type="submit">Create</button>
+    </form>
+    <div id="table">
+        <h2>Students:</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Course</th>
+                    <th>AGE</th>
+                    <th>Email</th>
+                    <th>Button</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
